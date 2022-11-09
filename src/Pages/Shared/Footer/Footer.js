@@ -3,7 +3,7 @@ import logo from '../../../images/favicon-32x32.png';
 
 const Footer = () => {
     return (
-        <footer className="footer items-center p-4 bg-fuchsia-700 text-neutral-content">
+        <footer className="footer items-center p-4 bg-fuchsia-700 text-neutral-content mt-6">
             <div className="items-center grid-flow-col">
                 <img src={logo} alt="" />
                 <p>Copyright © 2022 - All right reserved</p>
