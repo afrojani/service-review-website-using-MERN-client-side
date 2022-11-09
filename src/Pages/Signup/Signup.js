@@ -1,9 +1,53 @@
-import React from 'react';
+import { GoogleAuthProvider } from 'firebase/auth';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Signup = () => {
+
+    const { createUser, updateUserProfile, providerSignIn } = useContext(AuthContext);
+
+    const googleProvider = new GoogleAuthProvider();
+
+    const handleGoogleSignIn = () => {
+        providerSignIn(googleProvider)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+            })
+            .catch(error => console.log(error))
+    }
+
     const handleSignUp = event => {
         event.preventDefault();
+        const form = event.target;
+        const name = form.name.value;
+        const photoURL = form.photoURL.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(name, photoURL, email, password);
+
+
+        createUser(email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                form.reset();
+                handleUpdateUserProfile(name, photoURL);
+            })
+            .catch(error => {
+                console.log(error)
+            });
+    }
+
+    const handleUpdateUserProfile = (name, photoURL) => {
+        const profile = {
+            displayName: name,
+            photoURL: photoURL
+        }
+        updateUserProfile(profile)
+            .then(() => { })
+            .catch(error => console.log(error));
     }
 
     return (
@@ -23,6 +67,12 @@ const Signup = () => {
                         </div>
                         <div className="form-control">
                             <label className="label">
+                                <span className="label-text">Photo</span>
+                            </label>
+                            <input type="text" name="photoURL" placeholder="Photo URL" className="input input-bordered" />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
                             <input type="text" name="email" placeholder="email" className="input input-bordered" required />
@@ -39,6 +89,9 @@ const Signup = () => {
                             {/* <button className="btn btn-primary">Login</button> */}
                         </div>
                     </form>
+                    <p className='p-5 text-center'>Sign Up using
+                        <button onClick={handleGoogleSignIn} className="btn btn-outline btn-primary mx-2">Google</button>
+                    </p>
                     <p className='p-5 text-center'>Already have an account? Welcome Back!<br></br>
                         <Link className='text-fuchsia-500 font-bold' to='/login'>Log in Here</Link></p>
                 </div>
