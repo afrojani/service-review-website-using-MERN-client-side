@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 const EditReview = () => {
+    document.title = "Edit Review";
     const savedReview = useLoaderData();
     console.log(savedReview);
     const [review, setReview] = useState(savedReview);

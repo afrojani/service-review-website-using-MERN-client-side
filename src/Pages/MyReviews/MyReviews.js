@@ -3,6 +3,7 @@ import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import MyReviewCard from './MyReviewCard';
 
 const MyReviews = () => {
+    document.title = "My Reviews";
     const { user } = useContext(AuthContext);
     const [myReviews, setMyReviews] = useState([]);
 

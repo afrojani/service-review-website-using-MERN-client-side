@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import ServiceCard from '../Home/Services/ServiceCard';
 
 const AllServices = () => {
+    document.title = "All services";
     const allServices = useLoaderData();
     return (
         <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Blogs = () => {
+    document.title = "Blogs";
     return (
         <div className='grid md:grid-cols-2 place-content-center gap-4'>
             <div className="card w-96 bg-base-100 shadow-xl">

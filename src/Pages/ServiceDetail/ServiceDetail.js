@@ -3,6 +3,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const ServiceDetail = () => {
+    document.title = "Details";
     const oneService = useLoaderData();
     const { title, img, ratings, prices, description, menu, _id } = oneService;
 

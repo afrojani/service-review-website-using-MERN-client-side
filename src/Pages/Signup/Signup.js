@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Signup = () => {
+    document.title = "Sign Up";
 
     const { createUser, updateUserProfile, providerSignIn, loading } = useContext(AuthContext);
 

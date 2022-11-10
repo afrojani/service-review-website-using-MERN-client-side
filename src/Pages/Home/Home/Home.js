@@ -6,6 +6,7 @@ import MasalaService from '../MasalaService/MasalaService';
 import Services from '../Services/Services';
 
 const Home = () => {
+    document.title = "Bengali Savory/Home";
     return (
         <div>
             <Banner></Banner>

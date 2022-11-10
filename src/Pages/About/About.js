@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+    document.title = "About";
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content text-center">
