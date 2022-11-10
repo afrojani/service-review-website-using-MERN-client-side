@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MyReviewCard = ({ review, handleDelete }) => {
     const { _id, serviceName, message } = review;
@@ -8,7 +9,9 @@ const MyReviewCard = ({ review, handleDelete }) => {
             <div className="card-body">
                 <div className="card-actions justify-end">
                     <button onClick={() => handleDelete(_id)} className="btn btn-xs">Delete</button>
-                    <button className="btn btn-xs btn-primary">Edit</button>
+                    <Link to={`/myreviews/${_id}`}>
+                        <button className="btn btn-xs btn-primary">Edit</button>
+                    </Link>
                 </div>
                 <p className='text-xl text-semibold text-fuchsia-600'>{serviceName}</p>
                 <p className='text-semibold'>{message}</p>
