@@ -87,14 +87,14 @@ const ServiceDetail = () => {
                             </thead>
                             <tbody>
                                 {
-                                    menu.map(item => <>
+                                    menu.map(item => <div key={item.name}>
                                         <tr>
 
                                             <td>{item.name}</td>
 
                                             <td>{item.price}</td>
                                         </tr>
-                                    </>)
+                                    </div>)
                                 }
 
                             </tbody>
@@ -118,15 +118,15 @@ const ServiceDetail = () => {
                     </thead>
                     <tbody>
                         {
-                            reviews.map(review => <>
+                            reviews.map(review => <div key={review._id}>
                                 <tr>
 
-                                    <td><img className='rounded-full w-8 h-8' src={review.photoURL} alt="" srcset="" /></td>
+                                    <td><img className='rounded-full w-8 h-8' src={review.photoURL} alt="" /></td>
 
                                     <td>{review.customer}</td>
                                     <td>{review.message}</td>
                                 </tr>
-                            </>)
+                            </div>)
                         }
 
                     </tbody>

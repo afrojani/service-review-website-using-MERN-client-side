@@ -19,7 +19,7 @@ const Header = () => {
     const navItems2 = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
-        <li><Link to='/'>My Reviews</Link></li>
+        <li><Link to='/myreviews'>My Reviews</Link></li>
         <li><Link to='/'>Add Service</Link></li>
     </>
 
