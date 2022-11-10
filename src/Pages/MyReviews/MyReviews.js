@@ -7,7 +7,7 @@ const MyReviews = () => {
     const [myReviews, setMyReviews] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myreviews?email=${user?.email}`)
+        fetch(`https://assignment-11-food-server.vercel.app/myreviews?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setMyReviews(data))
     }, [user?.email])
@@ -16,7 +16,7 @@ const MyReviews = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure, you want to remove this review?');
         if (proceed) {
-            fetch(`http://localhost:5000/myreviews/${id}`, {
+            fetch(`https://assignment-11-food-server.vercel.app/myreviews/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

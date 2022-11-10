@@ -9,7 +9,7 @@ const EditReview = () => {
     const handleUpdateMessage = event => {
         event.preventDefault();
 
-        fetch(`http://localhost:5000/myreviews/${savedReview._id}`, {
+        fetch(`https://assignment-11-food-server.vercel.app/myreviews/${savedReview._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

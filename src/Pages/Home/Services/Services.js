@@ -7,7 +7,7 @@ const Services = () => {
 
     useEffect(() => {
         setLoading(true)
-        fetch('http://localhost:5000/limitservices')
+        fetch('https://assignment-11-food-server.vercel.app/limitservices')
             .then(res => res.json())
             .then(data => {
                 setServices(data);
