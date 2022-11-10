@@ -5,11 +5,19 @@ import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Signup = () => {
 
-    const { createUser, updateUserProfile, providerSignIn } = useContext(AuthContext);
+    const { createUser, updateUserProfile, providerSignIn, loading } = useContext(AuthContext);
 
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathname || '/';
+
+    if (loading) {
+        return <button type="button" class="bg-indigo-500 ..." disabled>
+            <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+            </svg>
+            Processing...
+        </button>
+    }
 
     // ---------------------google sign in----------
 

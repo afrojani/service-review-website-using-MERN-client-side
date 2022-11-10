@@ -3,12 +3,25 @@ import ServiceCard from './ServiceCard';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        setLoading(true)
         fetch('http://localhost:5000/limitservices')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => {
+                setServices(data);
+                setLoading(false)
+            })
     }, []);
+
+    if (loading) {
+        return <button type="button" class="bg-indigo-500 ..." disabled>
+            <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+            </svg>
+            Processing...
+        </button>
+    }
 
     return (
         <div>

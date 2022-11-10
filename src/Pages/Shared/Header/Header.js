@@ -15,12 +15,14 @@ const Header = () => {
     const navItems = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
+        <li><Link to='/blogs'>Blogs</Link></li>
     </>
     const navItems2 = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
+        <li><Link to='/blogs'>Blogs</Link></li>
         <li><Link to='/myreviews'>My Reviews</Link></li>
-        <li><Link to='/'>Add Service</Link></li>
+        <li><Link to='/addservice'>Add Service</Link></li>
     </>
 
     return (
