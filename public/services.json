@@ -1,6 +1,5 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "01",
         "title": "Breakfast Service",
         "img": "https://thumbs.dreamstime.com/b/indian-bengali-food-puri-luchi-aloo-sabji-potato-vegetable-dish-poori-bread-deep-fried-refined-oil-traditional-197201335.jpg",
@@ -10,28 +9,23 @@
         "menu": [
             {
                 "name": "Porota",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "20.00"
             },
             {
                 "name": "Dim vaja",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "15.00"
             },
             {
                 "name": "Booter Daal",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "25.00"
             },
             {
                 "name": "Halwa-Ruti",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "20.00"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "02",
         "title": "Lunch Service",
         "img": "https://media.istockphoto.com/id/482121467/photo/indian-thali-with-fish.jpg?s=612x612&w=0&k=20&c=VN1wILU7RRC-ey9llvVpB7-YGemIz4LZfv3pO5g8qd4=",
@@ -41,28 +35,23 @@
         "menu": [
             {
                 "name": "Plain rice",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "20.00"
             },
             {
                 "name": "Chicken jhaal fry",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "100.00"
             },
             {
                 "name": "Beef vuna",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "200.00"
             },
             {
                 "name": "Mutton kacchi",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "300.00"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "03",
         "title": "Dinner Service",
         "img": "https://media.istockphoto.com/id/997345886/photo/indian-cuisine-on-diwali-holiday-tikka-masala-samosa-patties-and-sweets-with-mint-chutney-and.jpg?s=612x612&w=0&k=20&c=W8yPlkaH0VA1SvR64tKv53lBO0Xfgk0bM82tGS1xATE=",
@@ -72,28 +61,23 @@
         "menu": [
             {
                 "name": "Plain rice",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "20.00"
             },
             {
                 "name": "Plain Ruti",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "10.00"
             },
             {
                 "name": "Mixed vegetable",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "20.00"
             },
             {
                 "name": "Chicken Curry",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "80.00"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
         "title": "Snacks Service",
         "img": "https://thumbs.dreamstime.com/b/samosa-snack-food-bangladeshi-famous-street-potato-cooking-spice-breakfast-snacks-248099319.jpg",
@@ -103,28 +87,23 @@
         "menu": [
             {
                 "name": "Shingara",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "5.00"
             },
             {
                 "name": "Chotpoti",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "30.00"
             },
             {
                 "name": "Chicken roll",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "15.00"
             },
             {
                 "name": "Kima porota",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "20.00"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "05",
         "title": "Sweets service",
         "img": "https://media.istockphoto.com/id/495022082/photo/indian-sweet-rasgulla-is-a-syrupy-dessert-indian-cottage-cheese.jpg?s=612x612&w=0&k=20&c=aiYrqWEJSFnRrhUc0mY53CcJ9KlhkWLEKtnW6ayqOGo=",
@@ -134,28 +113,23 @@
         "menu": [
             {
                 "name": "Cake",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "200.00"
             },
             {
                 "name": "Mishti Doi",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "150.00"
             },
             {
                 "name": "Sponge Rosgolla",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "250.00"
             },
             {
                 "name": "Pudding",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "120.00"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "06",
         "title": "Special Food service",
         "img": "https://media.istockphoto.com/id/1173089065/photo/ilish-or-hilsa-famous-bengali-fish-curry-with-grinded-mustard-seed.jpg?s=612x612&w=0&k=20&c=l4qvTypy8_QHOVMXQlSN8LYYGTwxm3hRSy9Ji_jISqI=",
@@ -165,22 +139,18 @@
         "menu": [
             {
                 "name": "Duck jhaal Curry",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "250.00"
             },
             {
                 "name": "Different type of pickles",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "200.00"
             },
             {
                 "name": "Hilsha fish with mustard seeds",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "150.00"
             },
             {
                 "name": "Deshi Chicken Curry",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum.",
                 "price": "250.00"
             }
         ]
